@@ -1,0 +1,33 @@
+📌 Dizi Metotları (pop, shift, push, unshift)
+✅ .pop() → Son elemanı kaldırır, kaldırılan elemanı döndürür.
+
+
+let arr = ["A", "B", "C"];
+let removed = arr.pop();
+console.log(arr); // ["A", "B"]
+console.log(removed); // "C"
+✅ .shift() → İlk elemanı kaldırır, kaldırılan elemanı döndürür.
+
+
+let arr = ["A", "B", "C"];
+let removed = arr.shift();
+console.log(arr); // ["B", "C"]
+console.log(removed); // "A"
+✅ .push("X") → Sona eleman ekler, yeni dizinin uzunluğunu döndürür.
+
+
+let arr = ["A", "B"];
+arr.push("C");
+console.log(arr); // ["A", "B", "C"]
+✅ .unshift("X") → Başa eleman ekler, yeni dizinin uzunluğunu döndürür.
+
+
+let arr = ["B", "C"];
+arr.unshift("A");
+console.log(arr); // ["A", "B", "C"]
+🎯 Özet Tablosu
+Metot	Ne Yapar?	Nerede Çalışır?	Döndürdüğü Değer
+.pop()	Son elemanı kaldırır	Sondan	Kaldırılan eleman
+.shift()	İlk elemanı kaldırır	Baştan	Kaldırılan eleman
+.push()	Sona eleman ekler	Sona	Yeni dizi uzunluğu
+.unshift()	Başa eleman ekler	Baştan	Yeni dizi uzunluğu

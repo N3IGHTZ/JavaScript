@@ -1,0 +1,68 @@
+Soru : Kilometers=Miles×1.60934
+
+Cevap : 
+let m = 10;
+let randomNumber = 1.60934;
+let km = m * randomNumber;
+
+console.log(km);
+output : 16.9034
+
+
+Soru : Area=π×r2
+
+cevap :
+let pi = 3.14159;
+let rN = 5;
+let Area = pi * rN**2;
+
+console.log(Area);
+output : 78.53975
+
+
+
+
+Soru : Kelvin=Celsius+273.15
+
+cevap : 
+let temp_c = 7;
+let randomN = 273.15;
+let kelvin = temp_c + randomN;
+
+console.log(kelvin);
+output : 280.15
+
+
+
+
+
+
+Soru : Volume=π×r2×h
+
+cevap : 
+let pi = 3.14159;
+let rN = 10;
+let hN = 5;
+let Volume = pi*rN**2*hN;
+
+console.log(Volume);
+output : 1570.795
+
+
+
+
+soru : 
+Hours = Total seconds ÷ 3600
+Minutes = (Total seconds % 3600) ÷ 60
+Seconds = Total seconds % 60
+
+
+cevap : 
+let totalSecond = 3665;
+let hours = totalSecond / 3600;
+let Minutes = (totalSecond % 3600) / 60;
+let seconds = totalSecond % 60;
+
+console.log("Saat = " + hours + " Dakika = " + Minutes + " Saniye = " + seconds);
+
+output : "Saat = 1.0180555555555555 Dakika = 1.0833333333333333 Saniye = 5"

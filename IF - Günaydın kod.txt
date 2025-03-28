@@ -1,0 +1,6 @@
+let hour = 4;		// saat : 4
+
+if (hour < 12) 		// saat ( 4 ) eğer 12 den küçükse Günaydın yazdır
+{
+  console.log("Good morning 🌞");
+}

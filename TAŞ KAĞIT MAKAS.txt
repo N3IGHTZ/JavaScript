@@ -1,0 +1,23 @@
+// TAŞ - KAĞIT - MAKAS //
+// 0 = Rock, 1 = Paper, 2 = Scissors
+let player = 1;  // Örnek: 0 = Rock
+let computer = Math.floor(Math.random() * 3); // 0, 1 veya 2 rastgele değer
+
+// Kazananı belirle
+if (player === computer) {
+  console.log("It's a tie!");
+} 
+else if (
+  (player === 0 && computer === 2) || // Rock (0) beats Scissors (2)
+  (player === 1 && computer === 0) || // Paper (1) beats Rock (0)
+  (player === 2 && computer === 1)    // Scissors (2) beat Paper (1)
+) {
+  console.log("The player won!");
+} 
+else {
+  console.log("The computer won!");
+}
+
+// İsteğe bağlı olarak, seçilen değerleri konsola yazdırabilirsiniz:
+console.log("Player picked: " + player);
+console.log("Computer picked: " + computer);

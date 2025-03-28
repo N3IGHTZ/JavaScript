@@ -1,0 +1,7 @@
+const musicPlaylist = ["Tom Sawyer","Sabotage","I Wanna Dance With Somebody","Don't Speak","Bulls On Parade", "Thriller", "The Breaks","Brick","Aeroplane Over the Sea", "Tubthumping"];
+const shiftedElement = musicPlaylist.shift();
+const poppedElement = musicPlaylist.pop();
+musicPlaylist.push("Bohemian Rhapsody");
+musicPlaylist.unshift("Hotel California", "Smells Like Teen Spirit");
+
+console.log(musicPlaylist);

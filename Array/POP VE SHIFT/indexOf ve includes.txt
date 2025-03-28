@@ -1,0 +1,22 @@
+const characters = [
+  "The Wally Watchers",
+  "Wilma",
+  "Fritz",
+  "Wizard Whitebeard",
+  "Odlaw",
+  "Waldo",
+  "Woof"
+];
+
+// "Waldo" dizide var mı?
+if (characters.includes("Waldo")) {
+  // Eğer varsa, indeksini bul
+  const waldoIndex = characters.indexOf("Waldo");
+  // Waldo'nun bulunduğu indeksi yazdır
+  console.log(`Found Waldo at index ${waldoIndex}!`);
+} else {
+  // Eğer yoksa, "Not found" mesajını yazdır
+  console.log("Not found");
+}
+
+// output : Found Waldo at index 5!

@@ -1,0 +1,47 @@
+// Ders Notları
+
+/*
+let grade = 93;
+
+if(grade > 90)
+{
+  console.log("A");
+}
+else if(grade > 80)
+{
+  console.log("B");
+}
+else if(grade > 70)
+{
+  console.log("C");
+}
+else if(grade > 60)
+{
+  console.log("D");
+}
+else
+{
+  console.log("F");
+}
+*/
+
+// ------------------------------------- //
+
+// pH değeri
+
+/*
+let ph = 4;
+
+if(ph > 7)
+{
+  console.log("Basic");
+}
+else if(ph < 7)
+{
+  console.log("Acidic");
+}
+else
+{
+  console.log("Neutral");
+}
+*/

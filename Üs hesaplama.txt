@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+// üs hesaplama
+
+/*
+let score = 0;
+
+score = 2**2; // cevap 2 x 2 = 4
+score = 2**3; // cevap 2 x 2 x 2 = 8
+score = 2**4; // cevap 2 x 2 x 2 x 2 = 16
+score = 2**5; // cevap 2 x 2 x 2 x 2 x 2 = 32
+
+console.log(score); // çıktı en son hangi kodu yazdıysak onun cevabı yani  : 32
+*/
+
+// Kilo ve Boy hesaplama
+
+/*
+let weight = 92.3;
+let height = 1.86;
+
+let bmi = weight / (height**2);			// boyu 1.86 x 1.86 yapıyor sonra 92.3'e bölüyor CEVAP : 26.67
+
+console.log(bmi);
+*/
+
+=======
+// üs hesaplama
+
+/*
+let score = 0;
+
+score = 2**2; // cevap 2 x 2 = 4
+score = 2**3; // cevap 2 x 2 x 2 = 8
+score = 2**4; // cevap 2 x 2 x 2 x 2 = 16
+score = 2**5; // cevap 2 x 2 x 2 x 2 x 2 = 32
+
+console.log(score); // çıktı en son hangi kodu yazdıysak onun cevabı yani  : 32
+*/
+
+// Kilo ve Boy hesaplama
+
+/*
+let weight = 92.3;
+let height = 1.86;
+
+let bmi = weight / (height**2);			// boyu 1.86 x 1.86 yapıyor sonra 92.3'e bölüyor CEVAP : 26.67
+
+console.log(bmi);
+*/
+
+>>>>>>> 7c217521805c137ed7191297ff05096e767199f5

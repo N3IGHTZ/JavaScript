@@ -1,0 +1,71 @@
+<<<<<<< HEAD
+/*
+// Hesaplama!
+let score = 0; // Skor şuanlık "sıfır" atanmış
+
+score = 4 + 3;    // score = 7
+score = 4 - 3;    // score = 1
+score = 4 * 3;    // score = 12
+score = 4 / 3;    // score = 1.3333
+score = 4 % 3;    // score = 1
+
+console.log(score); // çıktı : 1
+*/					= En sondaki score sonucu 1 çıktığı için cevap 1 
+
+
+
+// Piza Fiyat Hesaplama!
+
+/* 
+const pizza = 2.99;
+const cake = 0.99;
+
+let total = pizza + cake; // pizza ve cake toplamı : 3,98$
+
+let tip = total * 0.2;  // Tip pizza ve cake'in üzerine 0.2 koyuyor.
+
+console.log(tip) // çıktı : 0.796
+*/
+
+
+
+let temp_f = 56;
+let temp_c = (temp_f - 32) / 1.8;
+
+console.log(temp_c);
+=======
+/*
+// Hesaplama!
+let score = 0; // Skor şuanlık "sıfır" atanmış
+
+score = 4 + 3;    // score = 7
+score = 4 - 3;    // score = 1
+score = 4 * 3;    // score = 12
+score = 4 / 3;    // score = 1.3333
+score = 4 % 3;    // score = 1
+
+console.log(score); // çıktı : 1
+*/					= En sondaki score sonucu 1 çıktığı için cevap 1 
+
+
+
+// Piza Fiyat Hesaplama!
+
+/* 
+const pizza = 2.99;
+const cake = 0.99;
+
+let total = pizza + cake; // pizza ve cake toplamı : 3,98$
+
+let tip = total * 0.2;  // Tip pizza ve cake'in üzerine 0.2 koyuyor.
+
+console.log(tip) // çıktı : 0.796
+*/
+
+
+
+let temp_f = 56;
+let temp_c = (temp_f - 32) / 1.8;
+
+console.log(temp_c);
+>>>>>>> 7c217521805c137ed7191297ff05096e767199f5

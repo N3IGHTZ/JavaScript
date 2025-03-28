@@ -1,0 +1,14 @@
+// Control Flow
+
+let num=Math.random();
+if(num > 0.5)
+{
+  console.log("Heads");
+}
+else
+{
+  console.log("Tails");
+}
+
+
+AÇIKLAMA : "Math.random" komutu bana random sayı veriyor ve ona göre Head yada Tails yazdırıyor - YAZI TURA MANTIĞI

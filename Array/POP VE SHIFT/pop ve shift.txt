@@ -1,0 +1,21 @@
+const greeks = ["Zeus", "Hera", "Poseidon", "Apollo", "Hermes", "Dionysus", "Hades"];
+
+const shiftedElement = greeks.shift();
+const poppedElement = greeks.pop();
+
+console.log(shiftedElement);
+console.log(poppedElement);
+console.log(greeks);
+
+/*
+Output:
+Zeus
+Hades
+["Hera", "Poseidon", "Apollo", "Hermes", "Dionysus"]
+*/
+
+// AÇIKLAMA : " .shift " greeks'in içinde bulunan ilk yazıyı alıp -> shiftedElement'e taşıyor ve greeks'in içinden kaldırıyor.
+				" .pop " da son elemanı alıp -> poppedElement'e taşıyor ve greeks'den de kaldırıyor.
+				
+.shift() → İlk elemanı ("Zeus") alıp shiftedElement'e taşır, greeks'ten siler.
+.pop() → Son elemanı ("Hades") alıp poppedElement'e taşır, greeks'ten siler.

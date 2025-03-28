@@ -1,0 +1,80 @@
+<<<<<<< HEAD
+/* let year = 2023;
+let age = 28;
+let mealCost = 12.99;
+const pi = 3.14;
+const daysOfWeek = 7;
+
+console.log(year,age,mealCost,pi,daysOfWeek);
+*/
+
+/* let message = "good nite";
+let user = '@zuck';
+const company = "Codédex";
+
+console.log(message ,user ,company);
+*/
+
+/* let hungry = true;
+let lateToMeeting = false;
+const earthIsFlat = false;
+
+console.log(hungry,lateToMeeting,earthIsFlat);
+*/
+
+/* let startDate = "25/03/2025";
+let endDate;
+
+console.log(startDate); // 25/03/2025 yazıcak
+console.log(endDate); // hiçbir şey yazmıyıcak
+*/
+
+let companyName = 'Nike'; // String
+let foundingYear = 2025;  // Number
+let isActive = true;
+let fundingAmount;
+
+console.log(companyName);
+console.log(foundingYear);
+console.log(isActive);
+=======
+/* let year = 2023;
+let age = 28;
+let mealCost = 12.99;
+const pi = 3.14;
+const daysOfWeek = 7;
+
+console.log(year,age,mealCost,pi,daysOfWeek);
+*/
+
+/* let message = "good nite";
+let user = '@zuck';
+const company = "Codédex";
+
+console.log(message ,user ,company);
+*/
+
+/* let hungry = true;
+let lateToMeeting = false;
+const earthIsFlat = false;
+
+console.log(hungry,lateToMeeting,earthIsFlat);
+*/
+
+/* let startDate = "25/03/2025";
+let endDate;
+
+console.log(startDate); // 25/03/2025 yazıcak
+console.log(endDate); // hiçbir şey yazmıyıcak
+*/
+
+let companyName = 'Nike'; // String
+let foundingYear = 2025;  // Number
+let isActive = true;
+let fundingAmount;
+
+console.log(companyName);
+console.log(foundingYear);
+console.log(isActive);
+>>>>>>> 7c217521805c137ed7191297ff05096e767199f5
+console.log(fundingAmount);

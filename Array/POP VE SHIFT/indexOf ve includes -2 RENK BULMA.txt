@@ -1,0 +1,17 @@
+const favoriteColors = [
+  "blue",
+  "green",
+  "red",
+  "yellow",
+  "pink",
+  "purple",
+  "orange"
+];
+
+if (favoriteColors.includes("green")){
+  const greenIndex = favoriteColors.indexOf("green");
+  console.log('Green var');
+}
+else {
+  console.log('Green Yok!');
+}

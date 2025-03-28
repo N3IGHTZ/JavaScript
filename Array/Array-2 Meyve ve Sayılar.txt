@@ -1,0 +1,60 @@
+/*
+let fruits = ["strawberries 🍓", "blueberries 🫐", "bananas 🍌"];
+console.log(fruits[0]);
+*/
+
+// AÇIKLAMA : 0 🍓 - 1 🫐 - 2 🍌
+
+//--------------------------------------------------------------------//
+
+/*
+let pokemon = ["Bulbasaur", "Charmander", "Squirtle"];
+
+pokemon[2] = "Pikachu";
+
+console.log(pokemon);
+
+// Output: ["Bulbasaur", "Charmander", "Pikachu"]
+
+*/
+
+//---------------------------------------------------------------------//
+
+/*
+let numbers = [1, 2, 3];
+
+numbers[3] = 4;
+
+console.log(numbers);
+
+// Output: [1, 2, 3, 4]
+
+*/
+
+//------------------------------------------------------------------------//
+
+/*
+let numbers = [1, 2, 3];
+
+numbers [5] = 88;
+
+console.log(numbers);
+
+// Output: [1, 2, 3, undefined, undefined, 88]
+
+*/
+
+//------------------------------------------------//
+
+// SORU : Eggs yerine Butter yazdır ve 4.bir şey ekle 0'dan başladığı için 3 tane şey var 4. eklemek için de [4] yazıyoruz, 2'nin yerine de geçmesi için [2] yazıyoruz.
+
+/*
+
+let groceryList = ["🥛 Milk", "🥑 Avocado", "🥚 Eggs", "🍞 Bread"];
+
+groceryList [2] = "🧈 Butter";
+groceryList [4] = "🧼 Laundry Soap";
+
+console.log(groceryList);
+
+*/

@@ -1,0 +1,119 @@
+JavaScript’te mantıksal (logical) operatörler, bir veya birden fazla koşulu true (doğru) veya false (yanlış) olarak değerlendirip, buna göre sonuç döndüren yapıları ifade eder. Mantıksal operatörleri genellikle if gibi koşullu ifadelerle birlikte kullanırız. Bu operatörlerin başlıcaları:
+
+AND (&&)
+OR (||)
+NOT (!)
+
+Aşağıda her birini tek tek açıklayalım:
+
+
+1. AND Operatörü (&&)
+
+Sözdizimi (syntax): koşul1 && koşul2
+
+AND operatörü, her iki koşulun da true (doğru) olmasını bekler.
+
+Yani, koşul1 ve koşul2 ikisi de doğru ise ifadenin sonucu true olur, aksi takdirde false döner.
+
+Örnek:
+if (hunger > 44 && anger > 1) 
+{
+  console.log("Hangry");
+}
+
+Bu örnekte, hunger değişkeni 44’ten büyük VE anger değişkeni 1’den büyük ise, konsola "Hangry" yazılır.
+
+Koşullardan en az biri yanlış ise (hunger <= 44 veya anger <= 1), if bloğu çalışmaz.
+
+
+
+2. OR Operatörü (||)
+
+Sözdizimi (syntax): koşul1 || koşul2
+
+OR operatörü, en az bir koşulun true olmasını bekler.
+
+koşul1 veya koşul2 doğruysa ifadenin sonucu true olur; ancak ikisi de yanlışsa sonuç false olur.
+
+
+Örnek:
+if (coffee > 0 || bubble_tea > 0) 
+{
+  console.log("Thirsty");
+}
+
+Bu örnekte, coffee değişkeni 0’dan büyük VEYA bubble_tea değişkeni 0’dan büyük ise, konsola "Thirsty" yazılır.
+
+Yani coffee > 0 veya bubble_tea > 0 koşullarından herhangi biri doğru olduğunda if bloğu çalışır.
+
+
+3. NOT Operatörü (!)
+Sözdizimi (syntax): !koşul
+
+NOT operatörü, parantez içindeki ifadenin değerini tersine çevirir.
+
+Eğer koşul true ise !koşul false döner; koşul false ise !koşul true döner.
+
+Örnek:
+if (!tired) {
+  console.log("Let's code!");
+}
+
+tired değişkeni true (yorgun) ise !tired false olur ve if bloğu çalışmaz.
+
+tired değişkeni false (yorgun değil) ise !tired true olur ve konsola "Let's code!" yazılır.
+
+
+Neden Kullanırız?
+Mantıksal operatörler, birden fazla koşulu tek bir if ifadesi içinde kontrol etmemize izin verir. Böylece programımızın akışını daha rahat yönetebiliriz. Örneğin:
+
+Bir kullanıcının hem giriş yapmış hem de admin rolüne sahip olup olmadığını kontrol etmek için && kullanabiliriz.
+
+Kullanıcının ya admin ya da editör olup olmadığını kontrol etmek için || kullanabiliriz.
+
+Belirli bir durumun ters (olumsuz) halini kontrol etmek için ! kullanabiliriz.
+
+
+Kısaca Özet
+&& (AND): Tüm koşullar doğru olmalı
+
+|| (OR): Koşullardan en az biri doğru olmalı
+
+! (NOT): Koşulun tersini al
+
+JavaScript öğrenirken bu operatörleri iyi anlamak önemli; çünkü if, while, for gibi kontrol yapılarında sürekli karşımıza çıkarlar. Mantıksal operatörleri doğru kullanmak, kodunuzun akışını düzgün kurmanızı ve karmaşık şartları daha anlaşılır şekilde ifade etmenizi sağlar.
+
+Umarım yardımcı olmuştur! JavaScript’e yeni başladıysan, basit örneklerle pratik yaparak bu operatörlerin nasıl çalıştığını gözlemlemeni tavsiye ederim. Kolay gelsin!
+
+
+
+
+
+
+ÖRNEK:
+
+let aqi =51; // Örnek bir değer
+
+if (aqi >= 0 && aqi <= 50) {
+  console.log("Good");
+}
+else if (aqi >= 51 && aqi <= 100)
+{
+  console.log("Moderate");
+}
+else if (aqi >= 101 && aqi <= 150)
+{
+  console.log("Unhealthy(Sensitive Groups)");
+}
+else if (aqi >= 151 && aqi <= 200)
+{
+  console.log("Unhealthy");
+}
+else if (aqi >= 201 && aqi <= 300)
+{
+  console.log("Very Unhealthy");
+}
+else
+{
+  console.log("Hazardous");
+}

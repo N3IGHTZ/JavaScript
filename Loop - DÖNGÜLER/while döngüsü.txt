@@ -1,0 +1,27 @@
+let randomNumber = Math.floor(Math.random() * 10);
+
+while (randomNumber != 7)  // != : eşit değilse 7'ye devam ettir.
+{
+  console.log("Duck 🦆");
+  randomNumber = Math.floor(Math.random() * 10);
+}
+
+console.log("Goose! 🦢");
+
+
+
+
+
+
+AÇIKLAMA : 
+
+
+Kodu çalıştırırken iki farklı noktada Math.floor(Math.random() * 10) kullanılmasının nedeni, her döngü turunda yeni bir rastgele sayı üretilmesi gerektiğidir:
+
+Başlangıçta (let randomNumber = ...)
+Kod ilk defa çalıştığında randomNumber değişkeninin bir değeri olmalı. Aksi halde while döngüsünün koşulunu (randomNumber != 7) kontrol edemeyiz.
+
+Döngünün içinde (randomNumber = ...)
+while döngüsü her çalıştığında tekrar yeni bir rastgele sayı üretmeliyiz. Eğer bu satır içeride olmasaydı, randomNumber değişkeninin değeri hiç değişmezdi ve döngü ya hiç başlamaz ya da sonsuza kadar sürerdi.
+
+Özetle: Döngü başlamadan önce bir kere rastgele sayı üretiyoruz, sonra da döngü her tekrar ettiğinde bir kez daha rastgele sayı üreterek 7 sayısını yakalamaya çalışıyoruz.
