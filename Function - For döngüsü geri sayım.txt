@@ -1,0 +1,65 @@
+function countdown() {
+  // 10'dan 1'e kadar sayıları yazdırıyoruz.
+  for (let i = 10; i >= 1; i--) {
+    console.log(i);
+  }
+  // Döngü tamamlandıktan sonra "Blast Off! 🚀" döndürüyoruz.
+  return "Blast Off! 🚀";
+}
+
+// Fonksiyonu çağırıp, dönen değeri konsola yazdırıyoruz.
+console.log(countdown());
+
+
+//___________________________________________________________//
+
+ÖRNEK : FAKTORİYEL
+
+
+function factorial(n) {
+  let result = 1;
+  for (let i = 2; i <= n; i++) {
+    result *= i;
+    console.log(`Çarpılan sayı: ${i}, Güncel faktöriyel: ${result}`);
+  }
+  return result;
+}
+
+// Fonksiyonun sonucunu konsola yazdır
+console.log("Sonuç:", factorial(5));
+
+
+
+AÇIKLAMA : 
+Bu kod, bir sayının faktöriyelini hesaplayan bir JavaScript fonksiyonudur. İşleyişi şu şekildedir:
+
+Fonksiyon Tanımlama:
+
+factorial(n) fonksiyonu, n parametresini alır (hesaplanacak sayı).
+
+result değişkeni 1 olarak başlatılır (çünkü faktöriyel çarpma işlemiyle hesaplanır).
+
+Döngü ile Faktöriyel Hesaplama:
+
+for döngüsü 2'den başlayarak n'e kadar gider.
+
+Her adımda result *= i; işlemiyle çarpma yapılır.
+
+Ara adımlar konsola yazdırılır (örneğin, Çarpılan sayı: 3, Güncel faktöriyel: 6).
+
+Sonucu Döndürme:
+
+Döngü tamamlandığında, hesaplanan faktöriyel değeri return result; ile geri döndürülür.
+
+Fonksiyonun Çağrılması ve Sonucun Yazdırılması:
+
+console.log("Sonuç:", factorial(5)); çağrısı ile factorial(5) hesaplanır.
+
+5! = 5 × 4 × 3 × 2 × 1 = 120 olduğu için sonuç "Sonuç: 120" olarak konsola yazdırılır.
+
+📌 Özet: Bu kod, girilen n sayısının faktöriyelini hesaplar ve adım adım işlemi gösterir. ✅
+
+
+//___________________________________________________________//
+
+
