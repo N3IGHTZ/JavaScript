@@ -1,0 +1,27 @@
+/*
+function greetings(name, age) {
+  console.log("Hi! My name is " + name + ".");
+  console.log("I am " + age + " years old.");
+}
+
+greetings("Marshall", 30);
+*/
+
+
+
+//--------------------------------------------------//
+
+
+
+// ÖRNEK : IŞIK HIZI HESAPLAMA
+
+function relativityTheory(mass) 
+{
+  const speedOfLight = 3e8;
+
+  const energy = mass * speedOfLight ** 2;
+
+  return energy;
+}
+
+console.log (relativityTheory(5));

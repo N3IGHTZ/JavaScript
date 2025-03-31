@@ -1,0 +1,64 @@
+FONKSİYON KULLANARAK TOPLAMA : 
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(5, 3)); // 8
+console.log(add(10, 20)); // 30
+console.log(add(-4, 7)); // 3
+
+
+Nasıl Çalışıyor?
+add(a, b) fonksiyonu iki parametre alır: a ve b.
+
+return a + b; → a ve b’yi toplayarak sonucu döndürür.
+
+console.log(add(5, 3)); → 5 + 3 = 8 çıktısını verir.
+
+//____________________________________________//
+
+ORTALAMA HESAPLAMA : 
+
+function average(x, y, z) {
+  return (x + y + z) / 3;
+}
+
+console.log(average(10, 20, 30)); // 20
+console.log(average(5, 15, 25)); // 15
+
+
+Nasıl Çalışıyor?
+average(x, y, z) üç parametre alır.
+
+(x + y + z) / 3; → Üç sayıyı toplayıp 3'e bölerek ortalamayı hesaplar.
+
+console.log(average(10, 20, 30)); çıktısı 20 olur.
+
+//____________________________________________//
+
+DİZİDEKİ EN BÜYÜK SAYIYI BULAN FONKSİYON : 
+
+function maxNumber(numbersArray) {
+  return Math.max(...numbersArray);
+}
+
+console.log(maxNumber([10, 45, 3, 99, 23])); // 99
+console.log(maxNumber([7, 2, 8, 4, 1])); // 8
+
+
+Nasıl Çalışıyor?
+Math.max(...numbersArray); → numbersArray dizisindeki en büyük sayıyı bulur.
+
+console.log(maxNumber([10, 45, 3, 99, 23])); çıktısı 99 olur.
+
+//____________________________________________//
+
+Özet
+Fonksiyonlar, tekrar tekrar kullanılabilir kod bloklarıdır.
+
+Parametreler, fonksiyonlara dışarıdan verilen değerlerdir.
+
+Return → Fonksiyonun sonucunu döndürmek için kullanılır.
+
+Dizilerle Çalışma → sort(), Math.max(), slice(), reduce() gibi metodları kullanabiliriz.
