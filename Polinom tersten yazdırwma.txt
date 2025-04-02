@@ -1,0 +1,50 @@
+function isPalindrome(word) {
+  let reversedWord = ""; // Amaç: reversedWord adlı boş bir string (metin) oluşturuyoruz. Bu değişkende, word kelimesinin ters halini adım adım oluşturacağız.
+  
+  let lowerCaseWord = word.toLowerCase(); // Amaç: toLowerCase() metodu kullanılarak, verilen kelime tamamen küçük harfe dönüştürülür.
+  
+  for (let i = lowerCaseWord.length - 1; i >= 0; i--) {
+    reversedWord += lowerCaseWord[i];
+  }
+  
+  return reversedWord === lowerCaseWord; // Amaç: reversedWord (ters çevrilmiş kelime) ile lowerCaseWord (küçük harfe dönüştürülmüş orijinal kelime) karşılaştırılır.
+}
+
+console.log(isPalindrome("Racecar"));
+
+
+// ✔ "Ters çevirme" dediğimiz şey, aslında tersten yazdırma işlemiyle aynı şeydir.
+// ✔ for döngüsü sona doğru giderken, karakterleri sırayla reversedWord değişkenine ekler.
+// ✔ Bu sayede, kelimenin tersi oluşturulmuş olur.
+
+
+// FOR AÇIKLAMA : 
+/*
+Döngü Başlangıcı:
+
+i değişkeni, lowerCaseWord.length - 1 ile başlar.
+
+Örneğin, "racecar" kelimesinin uzunluğu 7'dir, bu nedenle i 6'dan başlar (çünkü indeksler 0'dan başlar).
+
+Döngü Koşulu:
+
+i >= 0 → i 0 veya daha büyük olduğu sürece döngü devam eder.
+
+Döngü İşlemi:
+
+Her adımda, lowerCaseWord[i] ifadesi ile o anki indeksdeki karakter alınır ve reversedWord stringine eklenir.
+
+Örnek İşleyiş:
+
+İlk adım: i = 6, lowerCaseWord[6] → "r" eklenir.
+
+İkinci adım: i = 5, lowerCaseWord[5] → "a" eklenir.
+
+Bu şekilde, kelimenin tüm karakterleri sondan başa doğru eklenir.
+
+Sonuç:
+
+Döngü bittikten sonra, reversedWord değişkeni, orijinal kelimenin ters halini içerir.
+
+Örneğin, "racecar" için ters hali yine "racecar" olacaktır.
+*/
