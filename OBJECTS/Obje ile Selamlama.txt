@@ -1,0 +1,12 @@
+const kisiler = {
+  isim: "Ahmet",
+  soyisim: "Yılmaz",
+  selamla: function() {
+    console.log("Merhaba, ben " + this.isim + " " + this.soyisim);
+  }
+};
+
+kisiler.selamla(); // "Merhaba, ben Ahmet Yılmaz"
+
+
+// Normal obje atar gibi obje atadık ve objenin içinde "selamla" adında  function tanımladık ve öyle output aldık.

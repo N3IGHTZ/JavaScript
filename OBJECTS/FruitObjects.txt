@@ -1,0 +1,40 @@
+// Write code below 💖
+// OBJELERİN DEĞERLERİNİ SONRADAN DEĞİŞTİREBİLİYORUZ.
+/*
+const user = {
+  username: "@emmachamberlain",
+  location: "Los Angeles, CA",
+  followers: 15725078,
+  following: 3, 
+  verified: false
+};
+
+user.verified = true;
+user.location = "🌐";
+
+console.log(user);
+*/
+// OUTPUT :
+/*
+const fruit = {
+  name: "apple",
+  quantity: 10,
+}
+
+console.log(fruit);
+
+// Output: {name: 'apple', quantity: 10}
+*/
+
+
+// FRUIT OBJ
+/*
+const fruit = {
+  name: "apple",
+  quantity: 10,
+}
+fruit.organic = true;
+console.log(fruit);
+
+// Output: {name: 'apple', quantity: 10}
+*/

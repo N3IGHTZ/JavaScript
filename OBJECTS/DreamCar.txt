@@ -1,0 +1,44 @@
+// Write code below 💖
+// DREAM CAR
+/*
+const stadium = {
+  name: "Dodger Stadium",
+  location: "Los Angeles, CA",
+  capacity: 56000,
+  soldOut: false
+};
+console.log(stadium.name);
+*/
+
+//CHATGPT CEVAP :
+
+// Boş bir car nesnesi oluşturabilir veya doğrudan inline tanımlayabilirsiniz.
+const car = {};
+
+// Dot notation (nokta notasyonu) ile özellikleri ekleyelim:
+car.model = "Honda";
+car.year = 2024;
+car.color = "Red";
+car.used = false; // Bu değeri true/false değiştirerek test edebilirsiniz.
+
+// Ardından, koşula göre konsola mesaj yazdıralım:
+if (car.used) {
+  console.log(`I'm looking for a ${car.year} ${car.model} that is used.`);
+} else {
+  console.log(`I'm looking for a ${car.year} ${car.model} that is new.`);
+}
+
+
+// BENİM CEVAP
+const car = {
+  model: "Tesla",
+  year: 2023,
+  color: "red",
+  used: true
+};
+
+if (car.used) {
+  console.log("I want a " + car.color + " " + car.year + " " + car.model + " that is used.");
+} else {
+  console.log("I want a " + car.color + " " + car.year + " " + car.model + " that is new.");
+}

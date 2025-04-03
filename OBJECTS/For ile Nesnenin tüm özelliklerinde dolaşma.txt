@@ -1,0 +1,15 @@
+const kitap = {
+  baslik: "Simyacı",
+  yazar: "Paulo Coelho",
+  yil: 1988
+};
+
+for (let ozellik in kitap) {
+  console.log(ozellik + ": " + kitap[ozellik]);
+}
+
+
+// OUTPUT : 
+"baslik: Simyacı"
+"yazar: Paulo Coelho"
+"yil: 1988"

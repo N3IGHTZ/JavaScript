@@ -1,0 +1,7 @@
+const Toys = {
+  Toysmaterial: "plastic",
+  ToysType: "LEGO",
+  ToysPieces: 24,
+  ToysValue: 24.99
+}
+console.log(Toys);

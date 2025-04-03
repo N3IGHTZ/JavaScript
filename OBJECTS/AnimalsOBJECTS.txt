@@ -1,0 +1,65 @@
+// Write code below 💖
+/*
+const phone = {
+  model: "iPhone 11 Pro Max",
+  brand: "Apple",
+  version: 11.6,
+  owner: "John Appleseed",
+  ringtone: function () {
+    console.log("Ring, ring! Ring, ring! 📲")
+  }
+}
+
+phone.ringtone();
+// Output: Ring, ring! Ring, ring! 📲
+*/
+
+
+// BENİM YAPTIĞIM
+/*
+const animals = {
+  name : "Benny",
+  type : "Pig,Sheep,Dog",
+  age : 24,
+  makeSound: function () {
+    console.log("Benny is a 10 year old dog that goes woof!")
+  }
+}
+
+animals.makeSound();
+*/
+
+
+// ISTENEN
+/*
+const pig = {
+  name: "Napoleon",
+  type: "pig",
+  age: 63,
+  makeSound() {
+    console.log(pig.name + " is a " + pig.age + " year old " + pig.type + " that goes oink!");
+  }
+};
+
+const sheep = {
+  name: "Mob",
+  type: "sheep",
+  age: 42,
+  makeSound() {
+    console.log(sheep.name + " is a " + sheep.age + " year old " + sheep.type + " that goes baaaah!");
+  }
+};
+
+const dog = {
+  name: "Balto",
+  type: "dog",
+  age: 12,
+  makeSound() {
+    console.log(dog.name + " is a " + dog.age + " year old " + dog.type + " that goes woof!");
+  }
+};
+
+pig.makeSound();
+sheep.makeSound();
+dog.makeSound();
+*/
