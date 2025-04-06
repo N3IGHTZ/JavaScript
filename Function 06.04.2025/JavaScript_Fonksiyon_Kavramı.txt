@@ -1,0 +1,3 @@
+Senin anlatımına göre kısa not şöyle olabilir:
+
+Square fonksiyonu içindeki x sadece o fonksiyon içindir. SquareArrow fonksiyonu yazılırken içine n parametresi verilir. Bu n değeri, yukarıdaki square fonksiyonuna gönderilir ve square fonksiyonu n için aynı işlemi (karesini alma) uygular. SquareArrow fonksiyonu bu şekilde square fonksiyonunu çağırarak aynı işlemi tekrar etmiş olur.

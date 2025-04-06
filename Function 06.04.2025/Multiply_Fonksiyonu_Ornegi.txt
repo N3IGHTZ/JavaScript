@@ -1,0 +1,18 @@
+const multiply = (a, b) => a * b;
+
+console.log(multiply(2, 3));  // 6 (Burada 2 ve 3 değerleri fonksiyona parametre olarak geçiyor)
+console.log(multiply(4, 5));  // 20
+console.log(multiply(7, 8));  // 56
+
+
+Not:
+
+Bu kodda, multiply adında bir ok fonksiyonu tanımlanmıştır. Fonksiyon, iki parametre alır (a ve b) ve bu parametrelerin çarpımını döndürür.
+
+console.log(multiply(2, 3)) → 2 * 3 = 6 olarak döner.
+
+console.log(multiply(4, 5)) → 4 * 5 = 20 olarak döner.
+
+console.log(multiply(7, 8)) → 7 * 8 = 56 olarak döner.
+
+Fonksiyon, her çağrıldığında verilen iki sayıyı çarpar ve sonucu konsola yazdırır. Bu örnekte parametreler doğrudan console.log içinde fonksiyona geçilmiştir.

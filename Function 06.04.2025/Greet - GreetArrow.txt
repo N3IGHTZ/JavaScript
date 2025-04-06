@@ -1,0 +1,8 @@
+function greet(name) {
+  return "Hello, " + name + "!";
+}
+const greetArrow = (name) => "Hello, " + name + "!";
+
+// Doğru kullanım:
+console.log(greet("Brandon"));
+console.log(greetArrow("Kat"));

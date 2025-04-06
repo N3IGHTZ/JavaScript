@@ -1,0 +1,18 @@
+Not:
+
+JavaScript’te arrow function (ok fonksiyonu) tanımlarken doğru sözdizimi kullanılmalıdır.
+Aşağıdaki gibi bir yazım yanlıştır:
+
+❌ const add (a, b)
+
+Çünkü const ile bir değişken tanımlanırken, eşittir (=) operatörüyle fonksiyon atanması gerekir.
+Doğru yazımı şu şekildedir:
+
+✅ const add = (a, b) => { return a + b; }
+
+veya kısa haliyle:
+
+✅ const add = (a, b) => a + b;
+
+Bu şekilde add adlı değişkene bir fonksiyon atanır ve => işareti fonksiyonun başladığını belirtir.
+Yanlış kullanımda eşittir olmadığı için JavaScript sözdizimi hatası verir.
