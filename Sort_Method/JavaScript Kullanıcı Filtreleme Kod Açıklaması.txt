@@ -1,0 +1,23 @@
+// JavaScript Kullanıcı Filtreleme Kod Açıklaması
+// Bu kod, kullanıcı nesnelerini yaş değerlerine göre filtrelemek için oluşturulmuştur.
+
+// Kullanıcı dizisinin tanımlanması:
+// Dizide her biri 'name' ve 'age' özelliklerine sahip üç kullanıcı nesnesi bulunmaktadır.
+const users = [
+  { name: "John", age: 30 },
+  { name: "Jane", age: 25 },
+  { name: "Jim", age: 35 },
+];
+
+// Filtreleme fonksiyonunun tanımlanması:
+// 'filterByAge' fonksiyonu, verilen kullanıcı nesnesinin yaşının 30 veya daha büyük olup olmadığını kontrol eder.
+const filterByAge = (user) => user.age >= 30;
+
+// Kullanıcı dizisinin filtrelenmesi:
+// 'filter' metodu ile 'users' dizisi içerisinde her bir kullanıcı için 'filterByAge' fonksiyonu çalıştırılır.
+// Böylece yaşı 30 ve üzeri olan kullanıcılar 'filteredUsers' dizisine dahil edilir.
+const filteredUsers = users.filter(filterByAge);
+
+// Sonuçların konsola yazdırılması:
+// Filtreleme sonucu elde edilen dizi konsola yazdırılarak kontrol edilebilir.
+console.log(filteredUsers); // Çıktı: [{name: "John", age: 30}, {name: "Jim", age: 35}]

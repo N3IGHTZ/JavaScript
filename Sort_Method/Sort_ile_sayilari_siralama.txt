@@ -1,0 +1,13 @@
+// Bir dizi tanımlanıyor ve içine sayılar ekleniyor.
+const number = [4, 3, 7, 1, 9, 2];
+
+// 'sortAscending' adlı ok fonksiyonu iki sayı alır ve aralarındaki farkı hesaplayarak sıralama düzeni belirlenir.
+// Eğer a < b ise, a b'den önce gelecek; a > b ise, a b'den sonra yer alır.
+const sortAscending = (a, b) => a - b;
+
+// Dizinin 'sort' metodu kullanılarak, 'sortAscending' fonksiyonu ile artan sırada sıralanması sağlanıyor.
+number.sort(sortAscending);
+
+// Sıralanmış dizi konsola yazdırılıyor.
+// Konsolda [1, 2, 3, 4, 7, 9] şeklinde görüntülenecektir.
+console.log(number);
