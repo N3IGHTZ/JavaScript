@@ -1,0 +1,16 @@
+===== 6 Yüzlü Zar Atma Simülasyonu =====
+
+Not:
+Bu kod, 6 yüzlü klasik bir zarın atılmasını simüle eder.
+Math.random() fonksiyonu 0 ile 1 arasında rastgele bir sayı üretir.
+Bu sayı 6 ile çarpılır, tam sayıya çevrilir ve +1 eklenerek 1-6 aralığında bir sonuç elde edilir.
+
+Kod:
+
+// Başlık ve Not
+console.log("===== 6 Yüzlü Zar Atma Simülasyonu =====");
+console.log("Not: Zar her atıldığında 1 ile 6 arasında rastgele bir sayı üretir.");
+
+// Zar atma
+let diceRoll = Math.floor(Math.random() * 6) + 1;
+console.log("Zar sonucu: " + diceRoll + " 🎲");

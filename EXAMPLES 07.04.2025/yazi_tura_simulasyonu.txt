@@ -1,0 +1,21 @@
+===== Yazı-Tura (Heads / Tails) Simülasyonu =====
+
+Not:
+Bu kod, dijital bir yazı-tura atışı simüle eder.
+Math.random() fonksiyonu 0 ile 1 arasında rastgele bir sayı üretir.
+Eğer bu sayı 0.5'ten büyükse "Heads" (yazı), değilse "Tails" (tura) sonucu elde edilir.
+
+Kod:
+
+// Başlık ve Not
+console.log("===== Yazı Tura Simülasyonu =====");
+console.log("Not: Math.random() fonksiyonu 0 ile 1 arasında rastgele bir sayı üretir. Bu sayı 0.5'ten büyükse yazı (Heads), küçükse tura (Tails) kabul edilir.");
+
+// Yazı-Tura Atma
+let num = Math.random();
+
+if (num > 0.5) {
+  console.log("Heads");
+} else {
+  console.log("Tails");
+}

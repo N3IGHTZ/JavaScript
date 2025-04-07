@@ -1,0 +1,23 @@
+// ISSUE
+let apples = 5;
+let oranges = 15;
+let bananas = 3;
+
+console.log("I have " + apples + " apples 🍎);
+console.log("I have" +  oranges + "oranges 🍊"
+
+
+
+
+
+
+
+
+// SOLVED
+let apples = 5;
+let oranges = 15;
+let bananas = 3;
+
+console.log("I have " + apples + " apples 🍎");
+console.log("I have " +  oranges + " oranges 🍊");
+console.log("I have " + bananas + " bananas 🍌");

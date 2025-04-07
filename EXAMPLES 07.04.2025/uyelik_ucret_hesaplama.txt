@@ -1,0 +1,22 @@
+===== Üyelik Durumuna Göre Ücret Hesaplama =====
+
+Not:
+Bu kod, üyelik durumu (true/false) göz önünde bulundurularak farklı ücretler döndüren bir fonksiyon içerir. 
+Ternary operator (`? :`) kullanılarak, eğer kullanıcı üye ise "$2.00", üye değilse "$10.00" ücreti döndürülür. 
+Ayrıca, `null` gibi "falsy" bir değer verilirse, üye olmadığı kabul edilir ve "$10.00" döndürülür.
+
+Kod:
+
+// Üyelik Durumuna Göre Ücret Hesaplama Fonksiyonu
+function getFee(isMember) {
+  return isMember ? "$2.00" : "$10.00";
+}
+
+console.log(getFee(true));
+// Expected output: "$2.00"
+
+console.log(getFee(false));
+// Expected output: "$10.00"
+
+console.log(getFee(null));
+// Expected output: "$10.00"

@@ -1,0 +1,15 @@
+===== İç İçe For Döngüsü ile Çarpan Tablosu =====
+
+Not:
+Bu kod, iç içe iki `for` döngüsü kullanarak 1'den 3'e kadar olan sayılarla çarpan tablosu oluşturur.
+İlk döngüde `i` değeri 1'den 3'e kadar artar, her `i` değeri için iç döngüde `j` değeri de 1'den 3'e kadar artar. 
+Her iki değerin çarpımı ekrana yazdırılır.
+
+Kod:
+
+// İç İçe For Döngüsü ile Çarpan Tablosu
+for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= 3; j++) {
+    console.log(i + " * " + j + " = " + (i * j));
+  }
+}

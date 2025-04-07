@@ -1,0 +1,15 @@
+// Başlık ve Not
+console.log("===== Hava Durumu ve Aktivite Seçimi =====");
+console.log("Not: Hava güneşliyse ve sıcaklık yüksekse plaja gidilir, değilse dış aktivite yapılır; hava güneşli değilse içeride vakit geçirilir.");
+
+// Değişkenlerin tanımlanması
+let weather = "Sunny";
+let temperature = 85;
+
+if (weather == "Sunny" && temperature > 80) {
+  console.log("Yay, let's go to the beach! 🏖️");
+} else if (weather == "Sunny") {
+  console.log("Let's do something fun outdoors! ⛰️");
+} else {
+  console.log("Let's watch some shows on the couch! 🍿");
+}

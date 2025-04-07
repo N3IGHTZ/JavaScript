@@ -1,0 +1,20 @@
+===== Countdown (Geri Sayım) Simülasyonu =====
+
+Not:
+Bu kod, `while` döngüsü kullanarak geri sayım yapar. Başlangıçta `countdown` değişkeni 3 olarak ayarlanır. 
+Döngü her çalıştığında, `countdown` 1 azaltılır ve değeri konsola yazdırılır. 
+Döngü bitince "Liftoff! 🚀" mesajı yazdırılır.
+
+Kod:
+
+// Başlangıçta countdown değeri 3.
+let countdown = 3;
+
+// countdown 0'dan büyük olduğu sürece döngü çalışacak.
+while (countdown > 0) {
+  console.log(countdown); // countdown değerini yazdır.
+  countdown--;           // countdown'u 1 azalt.
+}
+
+// Döngü bittiğinde son mesajı yazdır.
+console.log("Liftoff! 🚀");

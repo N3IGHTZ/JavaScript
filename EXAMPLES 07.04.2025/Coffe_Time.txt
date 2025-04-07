@@ -1,0 +1,18 @@
+// Başlık ve Not
+console.log("===== Kahve ve Kodlama Kararı =====");
+console.log("Not: Saat 10'dan sonra, kahve hazırsa kodlamaya başlayın; hazır değilse kahve hazırlayın, aksi halde iyi uyuyun.");
+
+// Değişkenlerin tanımlanması
+let time = 12;       // Örneğin saat 12
+let coffee = false;  // Kahve henüz hazır değil
+
+// Koşullu ifadeler
+if (time > 10) {
+  if (coffee == true) {
+    console.log("Let's start coding! 🧑‍💻");
+  } else {
+    console.log("Time to brew some fresh coffee. ☕️!");
+  }
+} else {
+  console.log("Make sure to get good sleep! 😴");
+}
