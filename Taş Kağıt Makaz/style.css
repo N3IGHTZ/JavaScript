@@ -1,0 +1,49 @@
+/* Tarayıcı varsayılan ayarlarını sıfırlama */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body genel stil ayarları */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #ecf0f1;
+    color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Başlık ve içerik stil ayarları */
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+  }
+  
+  /* Sonuç text'ine özel vurgu */
+  #result {
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  /* Buton stil ayarları */
+  button {
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
